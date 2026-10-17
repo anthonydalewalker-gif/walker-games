@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Walker Games – PWA Apps & Games</title><meta name="description" content="Play and install Walker Games PWA apps and games.">
+<meta name="theme-color" content="#0b0b1a"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/logo.svg"><link rel="stylesheet" href="style.css">
+<!-- ===== GOOGLE ADSENSE: paste your publisher ID below (replace ca-pub-XXXXXXXXXXXXXXXX) and uncomment ===== -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+</head><body>
+<header><a class="logo" href="./">Walker<span>Games</span></a><nav><a href="#apps">Apps</a><a href="#support">Support</a><a href="privacy.html">Privacy</a></nav></header>
+<section class="hero"><h1>Play. Install. Anywhere.</h1><p>Fast, installable web apps & games by Anthony “A.D” Walker — no app store required.</p>
+<a class="btn" href="#apps">Browse Apps</a> <button class="btn ghost" id="installHub" hidden>Install Hub</button></section>
+<main class="wrap" id="apps">
+<div class="controls"><input id="q" type="search" placeholder="Search apps, tags…" aria-label="Search"><div id="cats"></div></div>
+<div class="grid" id="grid"></div>
+<!-- ===== ADSENSE SLOT 1: replace data-ad-client & data-ad-slot, then delete the placeholder text ===== -->
+<div class="ad">Ad space
+<!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script> --></div>
+<section class="support" id="support"><h2>❤️ Support Walker Games</h2><p>Enjoying the games? Tips keep new apps coming.</p>
+<div class="row">
+<a class="btn" href="https://ko-fi.com/YOUR_KOFI_USERNAME" target="_blank" rel="noopener">Ko-fi</a>
+<a class="btn" href="https://www.buymeacoffee.com/YOUR_BMC_USERNAME" target="_blank" rel="noopener">Buy Me a Coffee</a>
+<a class="btn" href="https://buy.stripe.com/YOUR_TIP_LINK" target="_blank" rel="noopener">Tip with Card (Stripe)</a></div></section>
+<!-- ===== ADSENSE SLOT 2 ===== -->
+<div class="ad">Ad space
+<!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="2222222222" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script> --></div>
+</main>
+<dialog id="dlg"><div id="dlgBody"></div><p style="text-align:right"><button class="btn ghost" onclick="dlg.close()">Close</button></p></dialog>
+<footer>© <span id="yr"></span> Walker Games · <a href="privacy.html">Privacy Policy</a></footer>
+<script src="app.js"></script></body></html>

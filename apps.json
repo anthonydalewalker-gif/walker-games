@@ -1,0 +1,47 @@
+[
+  {
+    "id": "run-n-rumble",
+    "name": "Run N Rumble",
+    "featured": true,
+    "description": "Help Tubby Dash rescue his three friends and escape the video game! A free cartoon platformer with 15 levels and 5 bosses for your phone or browser.",
+    "icon": "icons/run-n-rumble.png",
+    "url": "https://anthonydalewalker-gif.github.io/run-n-rumble/",
+    "category": "Games",
+    "price": "free",
+    "premium": false,
+    "tags": [
+      "platformer",
+      "cartoon",
+      "bosses",
+      "offline"
+    ]
+  },
+  {
+    "id": "example-puzzle",
+    "name": "Example App \u2013 Block Puzzle Pro (PLACEHOLDER)",
+    "description": "Placeholder: a premium puzzle game. Replace with your real app.",
+    "icon": "icons/app2.svg",
+    "url": "https://example.com/block-puzzle/",
+    "category": "Games",
+    "price": "$2.99",
+    "premium": true,
+    "paymentLink": "https://buy.stripe.com/YOUR_PREMIUM_LINK",
+    "tags": [
+      "puzzle",
+      "premium"
+    ]
+  },
+  {
+    "id": "example-tool",
+    "name": "Example App \u2013 Score Tracker (PLACEHOLDER)",
+    "description": "Placeholder: a utility app. Replace with your real app.",
+    "icon": "icons/app3.svg",
+    "url": "https://example.com/score-tracker/",
+    "category": "Tools",
+    "price": "free",
+    "premium": false,
+    "tags": [
+      "utility"
+    ]
+  }
+]
