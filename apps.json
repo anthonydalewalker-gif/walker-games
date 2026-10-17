@@ -17,6 +17,22 @@
     ]
   },
   {
+    "id": "tictactoe",
+    "name": "Tic-Tac-Toe",
+    "description": "Classic Tic-Tac-Toe: play against the computer, pass-and-play 2 player, or challenge a friend online.",
+    "icon": "icons/tictactoe.svg",
+    "url": "https://anthonydalewalker-gif.github.io/tictactoe/",
+    "category": "Games",
+    "price": "free",
+    "premium": false,
+    "tags": [
+      "classic",
+      "2 player",
+      "online",
+      "vs computer"
+    ]
+  },
+  {
     "id": "example-puzzle",
     "name": "Example App \u2013 Block Puzzle Pro (PLACEHOLDER)",
     "description": "Placeholder: a premium puzzle game. Replace with your real app.",
@@ -29,19 +45,6 @@
     "tags": [
       "puzzle",
       "premium"
-    ]
-  },
-  {
-    "id": "example-tool",
-    "name": "Example App \u2013 Score Tracker (PLACEHOLDER)",
-    "description": "Placeholder: a utility app. Replace with your real app.",
-    "icon": "icons/app3.svg",
-    "url": "https://example.com/score-tracker/",
-    "category": "Tools",
-    "price": "free",
-    "premium": false,
-    "tags": [
-      "utility"
     ]
   }
 ]
